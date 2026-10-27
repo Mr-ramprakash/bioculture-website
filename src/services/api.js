@@ -4,15 +4,18 @@ async function postFrappeMethod(method, values) {
   const body = new URLSearchParams();
   Object.entries(values).forEach(([key, value]) => body.append(key, value));
 
-  const response = await fetch(`/api/method/${method}`, {
-    method: "POST",
-    credentials: "include",
-    headers: {
-      "Content-Type": "application/x-www-form-urlencoded",
-      "X-Frappe-CSRF-Token": getCsrfToken(),
+  const response = await fetch(
+    `https://erp.itgenie.online/api/method/${method}`,
+    {
+      method: "POST",
+      credentials: "include",
+      headers: {
+        "Content-Type": "application/x-www-form-urlencoded",
+        "X-Frappe-CSRF-Token": getCsrfToken(),
+      },
+      body: body.toString(),
     },
-    body: body.toString(),
-  });
+  );
 
   const responseText = await response.text();
   let data;
