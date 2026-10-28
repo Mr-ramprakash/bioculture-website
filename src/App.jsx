@@ -1034,7 +1034,11 @@ export default function App() {
       body.style.width = originalStyles.width;
       body.style.overflow = originalStyles.overflow;
       body.style.paddingRight = originalStyles.paddingRight;
+      const root = document.documentElement;
+      const scrollBehavior = root.style.scrollBehavior;
+      root.style.scrollBehavior = "auto";
       window.scrollTo(0, scrollY);
+      root.style.scrollBehavior = scrollBehavior;
     };
   }, [isModalOpen]);
 
