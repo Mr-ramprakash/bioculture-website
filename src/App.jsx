@@ -216,9 +216,9 @@ function PolicyPage({ type }) {
             <p>
               BIOMAN SEWAGE SOLUTIONS PRIVATE LIMITED is committed to ensuring
               that your privacy is protected. Should we ask you to provide
-              certain information by which you can be identified when using
-              this website, and then you can be assured that it will only be
-              used in accordance with this privacy statement.
+              certain information by which you can be identified when using this
+              website, and then you can be assured that it will only be used in
+              accordance with this privacy statement.
             </p>
             <p>
               BIOMAN SEWAGE SOLUTIONS PRIVATE LIMITED may change this policy
@@ -246,7 +246,9 @@ function PolicyPage({ type }) {
             </p>
             <ul>
               <li>Internal record keeping.</li>
-              <li>We may use the information to improve our products and services.</li>
+              <li>
+                We may use the information to improve our products and services.
+              </li>
               <li>
                 We may periodically send promotional emails about new products,
                 special offers or other information which we think you may find
@@ -275,11 +277,11 @@ function PolicyPage({ type }) {
               remembering information about your preferences.
             </p>
             <p>
-              We use traffic log cookies to identify which pages are being
-              used. This helps us analyses data about webpage traffic and
-              improve our website in order to tailor it to customer needs. We
-              only use this information for statistical analysis purposes and
-              then the data is removed from the system.
+              We use traffic log cookies to identify which pages are being used.
+              This helps us analyses data about webpage traffic and improve our
+              website in order to tailor it to customer needs. We only use this
+              information for statistical analysis purposes and then the data is
+              removed from the system.
             </p>
             <p>
               Overall, cookies help us provide you with a better website, by
@@ -291,8 +293,8 @@ function PolicyPage({ type }) {
             <p>
               You can choose to accept or decline cookies. Most web browsers
               automatically accept cookies, but you can usually modify your
-              browser setting to decline cookies if you prefer. This may
-              prevent you from taking full advantage of the website.
+              browser setting to decline cookies if you prefer. This may prevent
+              you from taking full advantage of the website.
             </p>
             <h2>Controlling your personal information</h2>
             <p>
@@ -316,11 +318,11 @@ function PolicyPage({ type }) {
               </li>
             </ul>
             <p>
-              We will not sell, distribute or lease your personal information
-              to third parties unless we have your permission or are required
-              by law to do so. We may use your personal information to send you
-              promotional information about third parties which we think you
-              may find interesting if you tell us that you wish this to happen.
+              We will not sell, distribute or lease your personal information to
+              third parties unless we have your permission or are required by
+              law to do so. We may use your personal information to send you
+              promotional information about third parties which we think you may
+              find interesting if you tell us that you wish this to happen.
             </p>
             <p>
               If you believe that any information we are holding on you is
@@ -338,10 +340,10 @@ function PolicyPage({ type }) {
               it.
             </p>
             <p>
-              In these Terms and Conditions, <strong>“Company,” “we,” “us,”
-              and “our”</strong> refer to <strong>BIOMAN SEWAGE SOLUTIONS
-              PRIVATE LIMITED</strong>, having its registered or operational
-              office at:
+              In these Terms and Conditions,{" "}
+              <strong>“Company,” “we,” “us,” and “our”</strong> refer to{" "}
+              <strong>BIOMAN SEWAGE SOLUTIONS PRIVATE LIMITED</strong>, having
+              its registered or operational office at:
             </p>
             <p>
               265/1, Agragaram Main Road, Ayanambakkam, Chennai, Tamil Nadu –
@@ -353,8 +355,8 @@ function PolicyPage({ type }) {
               purchasing products through it.
             </p>
             <p>
-              By accessing our website or placing an order, you acknowledge
-              that you have read and understood these Terms and Conditions.
+              By accessing our website or placing an order, you acknowledge that
+              you have read and understood these Terms and Conditions.
             </p>
 
             <h2>2. Website Information</h2>
@@ -365,9 +367,9 @@ function PolicyPage({ type }) {
               information may occasionally contain errors or omissions.
             </p>
             <p>
-              We reserve the right to correct errors, update information,
-              modify website content, or discontinue offers without prior
-              notice, subject to applicable law.
+              We reserve the right to correct errors, update information, modify
+              website content, or discontinue offers without prior notice,
+              subject to applicable law.
             </p>
             <p>
               Product images are provided for illustrative purposes. Actual
@@ -413,7 +415,10 @@ function PolicyPage({ type }) {
               provider. Such transactions are subject to the applicable
               provider&apos;s terms and policies.
             </p>
-            <p>An order is not considered paid until the payment is successfully confirmed.</p>
+            <p>
+              An order is not considered paid until the payment is successfully
+              confirmed.
+            </p>
 
             <h2>5. Order Confirmation and Acceptance</h2>
             <p>
@@ -425,27 +430,27 @@ function PolicyPage({ type }) {
               and verification where reasonably necessary.
             </p>
             <p>
-              We reserve the right to cancel or decline an order where
-              permitted by law, including in cases of suspected fraud,
-              incorrect pricing, or product unavailability. Where payment has
-              already been collected for an order that is cancelled, the amount
-              paid will be refunded in accordance with applicable law and our
-              applicable refund process.
+              We reserve the right to cancel or decline an order where permitted
+              by law, including in cases of suspected fraud, incorrect pricing,
+              or product unavailability. Where payment has already been
+              collected for an order that is cancelled, the amount paid will be
+              refunded in accordance with applicable law and our applicable
+              refund process.
             </p>
             <p>
-              Customers should provide accurate contact and delivery
-              information when placing an order.
+              Customers should provide accurate contact and delivery information
+              when placing an order.
             </p>
 
             <h2>6. Shipping and Delivery</h2>
             <p>
-              We aim to process and deliver orders within the estimated
-              delivery period communicated to the customer.
+              We aim to process and deliver orders within the estimated delivery
+              period communicated to the customer.
             </p>
             <p>
               Delivery timelines are estimates and may be affected by courier
-              availability, weather, transport disruptions, incorrect
-              addresses, or other circumstances beyond our reasonable control.
+              availability, weather, transport disruptions, incorrect addresses,
+              or other circumstances beyond our reasonable control.
             </p>
             <p>
               Customers are responsible for providing a complete and accurate
@@ -464,8 +469,8 @@ function PolicyPage({ type }) {
               protection laws.
             </p>
             <p>
-              Customers should contact our support team with their order
-              details and the reason for the request.
+              Customers should contact our support team with their order details
+              and the reason for the request.
             </p>
             <p>
               If an eligible refund is approved, it will be processed through
@@ -479,16 +484,16 @@ function PolicyPage({ type }) {
                 The Company should publish a clear cancellation, return, and
                 refund policy before accepting customer orders.
               </strong>{" "}
-              Any applicable eligibility conditions, time limits, and
-              exceptions should be stated in that policy.
+              Any applicable eligibility conditions, time limits, and exceptions
+              should be stated in that policy.
             </p>
 
             <h2>8. Customer Responsibilities</h2>
             <p>When using our website, you agree to:</p>
             <ul>
               <li>
-                Provide accurate and complete information when placing orders
-                or submitting enquiries.
+                Provide accurate and complete information when placing orders or
+                submitting enquiries.
               </li>
               <li>Use our products according to the instructions provided.</li>
               <li>
@@ -496,8 +501,8 @@ function PolicyPage({ type }) {
                 unauthorised purposes.
               </li>
               <li>
-                Avoid attempting to disrupt, damage, or gain unauthorised
-                access to our website or systems.
+                Avoid attempting to disrupt, damage, or gain unauthorised access
+                to our website or systems.
               </li>
               <li>
                 Respect the Company&apos;s intellectual property rights and
@@ -532,8 +537,8 @@ function PolicyPage({ type }) {
               third-party services, including payment processing services.
             </p>
             <p>
-              These third parties operate under their own terms, conditions,
-              and privacy policies. We are not responsible for the content,
+              These third parties operate under their own terms, conditions, and
+              privacy policies. We are not responsible for the content,
               security, or practices of external websites to the extent
               permitted by applicable law.
             </p>
@@ -573,22 +578,21 @@ function PolicyPage({ type }) {
             </p>
             <p>
               If an amount has been debited but the order or payment status is
-              not updated, customers should contact our support team and
-              provide the relevant transaction details. We will investigate
-              the matter and take appropriate action in accordance with
-              applicable law and the payment provider&apos;s procedures.
+              not updated, customers should contact our support team and provide
+              the relevant transaction details. We will investigate the matter
+              and take appropriate action in accordance with applicable law and
+              the payment provider&apos;s procedures.
             </p>
 
             <h2>13. Privacy and Personal Information</h2>
             <p>
-              Personal information collected through our website will be
-              handled in accordance with our Privacy Policy and applicable data
+              Personal information collected through our website will be handled
+              in accordance with our Privacy Policy and applicable data
               protection laws.
             </p>
             <p>
-              Customers should review our Privacy Policy to understand how
-              their personal information is collected, used, stored, and
-              shared.
+              Customers should review our Privacy Policy to understand how their
+              personal information is collected, used, stored, and shared.
             </p>
             <p>
               <strong>Privacy Policy:</strong> A separate Privacy Policy should
@@ -603,9 +607,9 @@ function PolicyPage({ type }) {
               features, or legal obligations.
             </p>
             <p>
-              The revised version will be published on this page with an
-              updated revision date. Changes will apply in accordance with
-              applicable law.
+              The revised version will be published on this page with an updated
+              revision date. Changes will apply in accordance with applicable
+              law.
             </p>
             <p>Customers are encouraged to review this page periodically.</p>
 
@@ -639,20 +643,20 @@ function PolicyPage({ type }) {
             <hr />
             <p>
               <strong>Important Notice:</strong> These Terms and Conditions
-              should be reviewed and approved by the Company before
-              publication. The Company should also confirm its official
-              registered address, customer support contact details, shipping
-              commitments, and cancellation, return, and refund policies.
+              should be reviewed and approved by the Company before publication.
+              The Company should also confirm its official registered address,
+              customer support contact details, shipping commitments, and
+              cancellation, return, and refund policies.
             </p>
           </>
         )}
         {isPrivacy && (
           <p className="policy-disclaimer">
             Disclaimer: The above content is created at BIOMAN SEWAGE SOLUTIONS
-            PRIVATE LIMITED&apos;s sole discretion. Razorpay shall not be
-            liable for any content provided here and shall not be responsible
-            for any claims and liability that may arise due to merchant’s
-            non-adherence to it.
+            PRIVATE LIMITED&apos;s sole discretion. Razorpay shall not be liable
+            for any content provided here and shall not be responsible for any
+            claims and liability that may arise due to merchant’s non-adherence
+            to it.
           </p>
         )}
       </article>
@@ -990,6 +994,49 @@ export default function App() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [policyPage]);
+
+  const isModalOpen = Boolean(selectedProduct || showSupport || successMessage);
+  useEffect(() => {
+    if (!isModalOpen) return;
+
+    const body = document.body;
+    const scrollY = window.scrollY;
+    const scrollbarWidth =
+      window.innerWidth - document.documentElement.clientWidth;
+    const originalStyles = {
+      position: body.style.position,
+      top: body.style.top,
+      left: body.style.left,
+      right: body.style.right,
+      width: body.style.width,
+      overflow: body.style.overflow,
+      paddingRight: body.style.paddingRight,
+    };
+
+    body.style.position = "fixed";
+    body.style.top = `-${scrollY}px`;
+    body.style.left = "0";
+    body.style.right = "0";
+    body.style.width = "100%";
+    body.style.overflow = "hidden";
+    if (scrollbarWidth > 0) {
+      const paddingRight = Number.parseFloat(
+        window.getComputedStyle(body).paddingRight,
+      );
+      body.style.paddingRight = `${paddingRight + scrollbarWidth}px`;
+    }
+
+    return () => {
+      body.style.position = originalStyles.position;
+      body.style.top = originalStyles.top;
+      body.style.left = originalStyles.left;
+      body.style.right = originalStyles.right;
+      body.style.width = originalStyles.width;
+      body.style.overflow = originalStyles.overflow;
+      body.style.paddingRight = originalStyles.paddingRight;
+      window.scrollTo(0, scrollY);
+    };
+  }, [isModalOpen]);
 
   if (policyPage === "privacy" || policyPage === "terms") {
     return <PolicyPage type={policyPage} />;
