@@ -1,0 +1,17 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "fastapi",
+  "buildCommand": null,
+  "functions": {
+    "api/index.py": {
+      "maxDuration": 30,
+      "includeFiles": "../knowledge-base/**"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/api/chat-api/:path*",
+      "destination": "/api?__vercel_path=/api/chat-api/:path*"
+    }
+  ]
+}
