@@ -1,5 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React, { useCallback, useEffect, useState } from "react";
 import { createBioCultureOrder, createSupportIssue } from "./services/api.js";
+import CustomerChatWidget from "./components/customer-chat/CustomerChatWidget.jsx";
+import { openCatalogCheckout } from "./components/customer-chat/productSuggestions.js";
 import { faqs, features, products, usageSteps } from "./data.js";
 const logoUrl = "/Bioman Logo.jpeg";
 const productImageUrl = "/Bioman Bio Culture Green Pouches.png";
@@ -984,6 +986,10 @@ export default function App() {
   const [policyPage, setPolicyPage] = useState(() =>
     window.location.hash.slice(1),
   );
+  const openCheckout = useCallback(
+    (candidate) => openCatalogCheckout(candidate, setSelectedProduct),
+    [],
+  );
 
   useEffect(() => {
     const updatePolicyPage = () => setPolicyPage(window.location.hash.slice(1));
@@ -1051,11 +1057,12 @@ export default function App() {
       <OfferBar />
       <Hero />
       <FeatureStrip />
-      <ProductGrid onBuy={setSelectedProduct} />
+      <ProductGrid onBuy={openCheckout} />
       <HowToUse />
       <ProductNote />
       <FAQ />
       <SiteFooter onContact={() => setShowSupport(true)} />
+      <CustomerChatWidget onBuyProduct={openCheckout} />
       {selectedProduct && (
         <CheckoutModal
           product={selectedProduct}
