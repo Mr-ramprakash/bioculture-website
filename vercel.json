@@ -1,0 +1,17 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "functions": {
+    "api/index.py": {
+      "maxDuration": 30,
+      "includeFiles": "{universal-chat-backend/**,knowledge-base/**}"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/api/chat-api/:path*",
+      "destination": "/api?__vercel_path=/api/chat-api/:path*"
+    }
+  ]
+}
